@@ -16,6 +16,8 @@ class CrawlAsVisitorTest extends BaseVisitLinksTest
 	#[TestWith(['', '/emoji', 200])]
 	#[TestWith(['', '/guestbook', 200])]
 	#[TestWith(['', '/dynamic-form', 200])]
+	#[TestWith(['', '/register', 200])]
+	#[TestWith(['', '/login', 200])]
 	public function testRoute(string $username, string $url, string|int|null $expected): void
 	{
 		parent::testWithLogin($username, $url, (int)$expected);

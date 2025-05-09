@@ -46,6 +46,7 @@
         "jawira/doctrine-diagram-bundle": "*",
         "nette/php-generator": "^4.1",
         "phpunit/phpunit": "^12.1",
+        "survos/code-bundle": "dev-main",
         "survos/crawler-bundle": "^1.5",
         "symfony/browser-kit": "^7.0",
         "symfony/css-selector": "^7.0",
@@ -54,7 +55,8 @@
         "symfony/phpunit-bridge": "^6.3",
         "symfony/stopwatch": "^7.0",
         "symfony/web-profiler-bundle": "^7.0",
-        "zenstruck/browser": "^1.9"
+        "zenstruck/browser": "^1.9",
+        "zenstruck/console-test": "^1.7"
     },
     "replace": {
         "symfony/polyfill-ctype": "*",

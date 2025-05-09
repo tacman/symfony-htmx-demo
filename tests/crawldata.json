@@ -59,6 +59,30 @@
             "statusCode": 200,
             "foundOn": "/",
             "memory": null
+        },
+        "/register": {
+            "path": "/register",
+            "seen": true,
+            "depth": 1,
+            "linkStatus": null,
+            "username": null,
+            "route": "app_register",
+            "rp": null,
+            "statusCode": 200,
+            "foundOn": "/",
+            "memory": null
+        },
+        "/login": {
+            "path": "/login",
+            "seen": true,
+            "depth": 1,
+            "linkStatus": null,
+            "username": null,
+            "route": "app_login",
+            "rp": null,
+            "statusCode": 200,
+            "foundOn": "/",
+            "memory": null
         }
     }
 }

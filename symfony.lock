@@ -52,6 +52,9 @@
             "tests/bootstrap.php"
         ]
     },
+    "survos/code-bundle": {
+        "version": "dev-main"
+    },
     "survos/crawler-bundle": {
         "version": "1.5",
         "recipe": {
