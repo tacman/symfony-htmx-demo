@@ -1,0 +1,64 @@
+{
+    "|https://127.0.0.1:8000": {
+        "/": {
+            "path": "/",
+            "seen": true,
+            "depth": 0,
+            "linkStatus": null,
+            "username": null,
+            "route": "app",
+            "rp": null,
+            "statusCode": 200,
+            "foundOn": null,
+            "memory": null
+        },
+        "/like": {
+            "path": "/like",
+            "seen": true,
+            "depth": 1,
+            "linkStatus": null,
+            "username": null,
+            "route": "app_like_index",
+            "rp": null,
+            "statusCode": 200,
+            "foundOn": "/",
+            "memory": null
+        },
+        "/emoji": {
+            "path": "/emoji",
+            "seen": true,
+            "depth": 1,
+            "linkStatus": null,
+            "username": null,
+            "route": "app_emoji_index",
+            "rp": null,
+            "statusCode": 200,
+            "foundOn": "/",
+            "memory": null
+        },
+        "/guestbook": {
+            "path": "/guestbook",
+            "seen": true,
+            "depth": 1,
+            "linkStatus": null,
+            "username": null,
+            "route": "app_guestbook_index",
+            "rp": null,
+            "statusCode": 200,
+            "foundOn": "/",
+            "memory": null
+        },
+        "/dynamic-form": {
+            "path": "/dynamic-form",
+            "seen": true,
+            "depth": 1,
+            "linkStatus": null,
+            "username": null,
+            "route": "app_dynamicform_index",
+            "rp": null,
+            "statusCode": 200,
+            "foundOn": "/",
+            "memory": null
+        }
+    }
+}
